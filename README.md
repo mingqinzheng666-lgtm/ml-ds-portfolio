@@ -11,12 +11,13 @@ Each project is self-contained in its own folder with a Jupyter notebook, a deta
 | 1 | [Credit Default Prediction](./credit-default-prediction) | Classical ML vs. Deep Learning | Random Forest, MLP, class weighting, ROC-AUC | RF ROC-AUC **0.786** > MLP 0.733 on imbalanced tabular data |
 | 2 | [Financial News Sentiment (NLP)](./financial-news-sentiment) | NLP / Text classification | TF-IDF (uni+bigram), Logistic Regression | Accuracy **0.71**, macro-F1 0.58; full per-class error analysis |
 | 3 | [NanoGPT — Transformer from Scratch](./nanogpt-transformer) | Deep Learning / LLMs | Self-attention, multi-head, causal masking (PyTorch) | 212K-param char-LM + controlled attention-head study |
+| 4 | [Quantitative Portfolio Analysis](./quant-portfolio-analysis) | Quant Finance / Time Series | MVO, ARIMA-GARCH, Fama-French 3-factor, VaR/ES & stress testing | Max-utility Sharpe **0.517** vs 0.380; VaR backtest 5.2% at 5% level |
 
 *More projects will be added over time.*
 
 ## Tech stack
 
-Python · scikit-learn · PyTorch · pandas · NumPy · NLTK · Matplotlib · seaborn · Jupyter
+Python · scikit-learn · PyTorch · statsmodels · arch · SciPy · pandas · NumPy · NLTK · Matplotlib · seaborn · Jupyter
 
 ## How to run
 
